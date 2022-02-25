@@ -47,7 +47,7 @@ module.exports.getAllProjectTeam =function(req,res){
     })
 }
 
-module.exports,upadateprojectTeam =function(req,res){
+module.exports.upadateprojectTeam =function(req,res){
     let projectTeamName = req.body.projectTeamName
     let statusId = req.body.statusId
     let userId = req.body.userId
